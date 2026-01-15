@@ -1,0 +1,121 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #2b3b54, #0f172a);
+}
+
+/* Weather Form */
+.weather {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+.weather input {
+    width: 250px;
+    padding: 12px 15px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.weather button {
+    padding: 12px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background: #ffffff;
+    color: #0077ff;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.weather button:hover {
+    background: #0077ff;
+    color: #fff;
+}
+
+ .weather button:active {
+    transform: scale(0.9);
+}
+/* Result Card */
+.result {
+    width: 370px;
+    padding: 25px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #56ccf2, #2f80ed);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    color: #fff;
+    display: none;
+    flex-direction: column;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* City Name */
+.city-name {
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Temperature */
+.temperature {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+/* Emoji */
+.result img {
+    width: 70px;
+    height: 70px;
+    margin-left: 37%;
+    object-fit: contain;
+}
+
+/* Weather Info */
+.humidity,
+.description {
+    font-size: 16px;
+    margin: 6px 0;
+    opacity: 0.9;
+}
+
+/* Error Message */
+.error {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #fff200;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@media (max-width: 400px) {
+    .weather {
+        flex-direction: column;
+    }
+
+    .weather input,
+    .weather button {
+        width: 100%;
+    }
+
+    .result {
+        width: 90%;
+    }
+}
