@@ -6,7 +6,7 @@ Built using **HTML, CSS, and JavaScript**, this project demonstrates API integra
 ---
 
 ## 🚀 Live Demo
-🔗[click here to visit](https://durgaprasad4289.github.io/Weather_Dashboard/)
+🔗 [Click here to visit](https://durgaprasad4289.github.io/Weather_Dashboard/)
 
 ---
 
@@ -65,3 +65,5 @@ Weather_Dashboard/
 ---
 
 ## 📸 Preview
+
+<img width="470" height="527" alt="Image" src="https://github.com/user-attachments/assets/8ec7f4d0-6324-4abb-9d52-e56bd25ec904" />
