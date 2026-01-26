@@ -31,6 +31,8 @@ Built using **HTML, CSS, and JavaScript**, this project demonstrates API integra
 ---
 
 ## 📂 Project Structure
+
+```text
 Weather_Dashboard/
 │
 ├── index.html 
@@ -38,6 +40,7 @@ Weather_Dashboard/
 ├── script.js 
 └── README.md 
 
+```
 ---
 
 ## 🔧 How It Works
